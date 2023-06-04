@@ -9,33 +9,39 @@
       href="../images/Nanatsu no Taizai.PNG"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="../css/1style.css" />
+
+
+     <!--Style css-->
+    <link rel="stylesheet" href="../css/style.css" />
+
+     <!-- Boostrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
-    <style>
-      .card{
-        transition: .5s;
-        margin-top: 20px;
 
-      }
-      .card:hover{
-        transform: translateY(-10px);
-        box-shadow: 0 12px 16px rgb(0, 0, 0);
-      }
-    </style>
+    <!--animated css-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link href="https://fonts.googleapis.com/css2? family=Roboto:wght@300&display=swap" rel="stylesheet">
+
     <title>Personajes</title>
   </head>
   <body>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
-    <header>
+    
+    <!--Nav/menu-->
+    <header class="header">
       <nav
         class="navbar navbar-expand-lg navbar-dark"
         style="background-color: #993434"
@@ -45,7 +51,7 @@
             ><img
               src="../images/Anime_Confirmation_Logo (1).png"
               alt=""
-              width="200px"
+              width="150px"
           /></a>
           <button
             class="navbar-toggler"
@@ -60,613 +66,2007 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="../index.html">Inicio</a>
+              <li class="nav-nav item">
+                <a class="color_a nav-link active" href="../index.html">Inicio</a>
               </li>
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Serie
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="../pages/manga.html">Manga</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="../pages/anime.html">Anime</a>
-                    </li>
-                    <li><hr class="dropdown-divider" /></li>
-                  </ul>
-                </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/Juego.html">Juego</a>
+              <li class="nav-item dropdown">
+                <a
+                  class="color_a nav-link active dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Serie
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="/pages/peliculas.html">Peliculas</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/pages/anime.html">Anime</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/Creador.html">Creador</a>
+              <li class="nav-cavs">
+                <a class="color_a nav-link active" href="/pages/Juego.html">Juego</a>
+              </li>
+              <li class="nav-cavs">
+                <a class="color_a nav-link active" href="/pages/Creador.html">Creador</a>
               </li>
             </ul>
-          </ul>
           </div>
         </div>
       </nav>
     </header>
-    <main>
-      <h1 class="animated-text" style="text-align: center; margin-top: 40px;">Personajes</h1>
-      <section id="Siete Pecados">
-        <a href="https://nanatsu-no-taizai.fandom.com/wiki/Seven_Deadly_Sins"><h4
-          class="text-left my-5"
-          style="
-            display: flex;
-            text-align: center;
-            text-decoration-line: underline;
-            color: #993434;
-          "
-        >
-          Pecados Capitales
-        </h4></a>
-        <div class="row row-cols-4">
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Meliodas"><img
-                src="../images/images/portada_nanatsu-no-taizai-32.jpg"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Meliodas"
-                  ><h5 class="card-title">Meliodas (Pecado de la ira)</h5></a
-                >
+
+
+    
+<main> 
+    <h1 class="animated-text">Personajes</h1>
+    <p style="font-size: 150%;">A continuación se presentara un catalogo de los personajes que aparecen en Nanatsu no Taizai.</p>
+  <!-- Siete pecados capitales -->
+    <section id="team" class="pb-5">
+      <div class="container">
+          <h5 class="section-title h1">Siete pecados capitales</h5>
+          <div class="row">
+              <!-- Team member -->
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                  <div class="image-flip" >
+                      <div class="mainflip flip-0">
+                          <div class="frontside">
+                              <div class="card">
+                                  <div class="card-body text-center">
+                                      <p><img class=" img-fluid" src="../images/Images/portada_nanatsu-no-taizai-32.jpg" alt="card image"></p>
+                                      <h4 class="card-title">Meliodas</h4>
+                                      <p class="card-text">Capitan de los siete pecados capitales y pecado de la ira</p>
+                                      <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="backside">
+                              <div class="card">
+                                  <div class="card-body text-center mt-4">
+                                      <h4 class="card-title">Meliodas</h4>
+                                      <p class="card-text" style="color: rgb(243, 219, 6);">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non esse sunt reprehenderit laudantium recusandae? Alias, perferendis facere! Quod voluptatibus hic assumenda, impedit, eligendi ab, amet vitae illo ratione quia perferendis?</p>
+                                      <ul class="list-inline">
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-facebook"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-twitter"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-skype"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-google"></i>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
               </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Ban"><img
-                src="../images/images/ban-seven-deadly-sins.webp"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Ban"
-                  ><h5 class="card-title">Ban (Pecado de la avaricia)</h5></a
-                >
+              <!-- ./Team member -->
+              <!-- Team member -->
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                  <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                      <div class="mainflip">
+                          <div class="frontside">
+                              <div class="card">
+                                  <div class="card-body text-center">
+                                      <p><img class=" img-fluid" src="../images/Images/ban-seven-deadly-sins.webp" alt="card image"></p>
+                                      <h4 class="card-title">Ban</h4>
+                                      <p class="card-text">Pecado de la avaricia</p>
+                                      <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="backside">
+                              <div class="card">
+                                  <div class="card-body text-center mt-4">
+                                      <h4 class="card-title">Ban</h4>
+                                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci deleniti quo mollitia nam, provident pariatur omnis? Reprehenderit culpa modi inventore temporibus esse. Voluptates, deleniti ex molestiae ipsa assumenda adipisci libero?</p>
+                                      <ul class="list-inline">
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-facebook"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-twitter"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-skype"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-google"></i>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
               </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/King"><img
-                src="../images/images/King_Anime.webp"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/King"
-                  ><h5 class="card-title">King (Pecado de la pereza)</h5></a
-                >
+              <!-- ./Team member -->
+              <!-- Team member -->
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                  <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                      <div class="mainflip">
+                          <div class="frontside">
+                              <div class="card">
+                                  <div class="card-body text-center">
+                                      <p><img class=" img-fluid" src="../images/Images/King_Anime.webp" alt="card image"></p>
+                                      <h4 class="card-title">King</h4>
+                                      <p class="card-text">Pecado de la Pereza</p>
+                                      <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="backside">
+                              <div class="card">
+                                  <div class="card-body text-center mt-4">
+                                      <h4 class="card-title">King</h4>
+                                      <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni iure deserunt animi facere sed ut, non ad possimus corporis odio, veritatis ex asperiores consequatur soluta earum omnis itaque harum! Eveniet.</p>
+                                      <ul class="list-inline">
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-facebook"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-twitter"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-skype"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-google"></i>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
               </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Diane"><img
-                src="../images/images/nanatsu_no_taizai_diez_cosas_que_los_fanaticos_no_saben_sobre_diane.jpg_438682172.webp"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a  style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Diane"
-                  ><h5 class="card-title">Diana (Pecado de la envidia)</h5></a
-                >
+              <!-- ./Team member -->
+              <!-- Team member -->
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                  <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                      <div class="mainflip">
+                          <div class="frontside">
+                              <div class="card">
+                                  <div class="card-body text-center">
+                                      <p><img class=" img-fluid" src="../images/Images/nanatsu_no_taizai_diez_cosas_que_los_fanaticos_no_saben_sobre_diane.jpg_438682172.webp" alt="card image"></p>
+                                      <h4 class="card-title">Diana</h4>
+                                      <p class="card-text">Pecado de la envidia</p>
+                                      <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="backside">
+                              <div class="card">
+                                  <div class="card-body text-center mt-4">
+                                      <h4 class="card-title">Diana</h4>
+                                      <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                      <ul class="list-inline">
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-facebook"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-twitter"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-skype"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-google"></i>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
               </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Gowther"><img class="card-img-top"
-                src="../images/images/Nanatsu-no-Taizai_-Éste-cosplay-trae-a-la-vida-a-Gowther-el-pecado-de-la-lujuria.webp"
-                class="card-img-top"
-                alt="Card image cap"
-              /></a>
-              <div class="card-body">
-                <a style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Gowther"
-                  ><h5 class="card-title">Gowther (Pecado de la lujuria)</h5></a
-                >
+              <!-- ./Team member -->
+              <!-- Team member -->
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                  <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                      <div class="mainflip">
+                          <div class="frontside">
+                              <div class="card">
+                                  <div class="card-body text-center">
+                                      <p><img class=" img-fluid" src="../images/Images/Nanatsu-no-Taizai_-Éste-cosplay-trae-a-la-vida-a-Gowther-el-pecado-de-la-lujuria.webp" alt="card image"></p>
+                                      <h4 class="card-title">Gowther</h4>
+                                      <p class="card-text">Pecado de la lujuria</p>
+                                      <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="backside">
+                              <div class="card">
+                                  <div class="card-body text-center mt-4">
+                                      <h4 class="card-title">Gowther</h4>
+                                      <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                      <ul class="list-inline">
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-facebook"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-twitter"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-skype"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-google"></i>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
               </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Merlin"><img
-                src="../images/images/Merlin_se_revela.webp"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Merlin"
-                  ><h5 class="card-title">Merlin (Pecado de la gula)</h5></a
-                >
+              <!-- ./Team member -->
+              <!-- Team member -->
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                  <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                      <div class="mainflip">
+                          <div class="frontside">
+                              <div class="card">
+                                  <div class="card-body text-center">
+                                      <p><img class=" img-fluid" src="../images/Images/Merlin_se_revela.webp" alt="card image"></p>
+                                      <h4 class="card-title">Merlin</h4>
+                                      <p class="card-text">Pecado de la gula</p>
+                                      <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="backside">
+                              <div class="card">
+                                  <div class="card-body text-center mt-4">
+                                      <h4 class="card-title">Merlin</h4>
+                                      <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                      <ul class="list-inline">
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-facebook"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-twitter"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-skype"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-google"></i>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
               </div>
+              <!-- ./Team member -->
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" >
+                    <div class="mainflip flip-0">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="../images/Images/Escanor.jpg" alt="card image"></p>
+                                    <h4 class="card-title">Escanor</h4>
+                                    <p class="card-text" style="color: rgb(243, 219, 6);">Pecado del orgullo</p>
+                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Escanor</h4>
+                                    <p class="card-text" style="color: rgb(243, 219, 6);">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non esse sunt reprehenderit laudantium recusandae? Alias, perferendis facere! Quod voluptatibus hic assumenda, impedit, eligendi ab, amet vitae illo ratione quia perferendis?</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Escanor"><img class="card-img-top"
-                src="../images/images/Escanor.jpg"
-                class="card-img-top"
-                alt="Card image cap"
-              /></a>
-              <div class="card-body">
-                <a style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Escanor"
-                  ><h5 class="card-title">Escanor (Pecado del orgullo)</h5></a
-                >
+            <!-- ./Team member -->
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="image-flip" >
+                  <div class="mainflip flip-0">
+                      <div class="frontside">
+                          <div class="card">
+                              <div class="card-body text-center">
+                                  <p><img class=" img-fluid" src="../images/Images/Elizabeth.jpg" alt="card image"></p>
+                                  <h4 class="card-title">Elizabeth Liones</h4>
+                                  <p class="card-text"> Princesa de liones</p>
+                                  <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="backside">
+                          <div class="card">
+                              <div class="card-body text-center mt-4">
+                                  <h4 class="card-title">Elizabeth Liones</h4>
+                                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non esse sunt reprehenderit laudantium recusandae? Alias, perferendis facere! Quod voluptatibus hic assumenda, impedit, eligendi ab, amet vitae illo ratione quia perferendis?</p>
+                                  <ul class="list-inline">
+                                      <li class="list-inline-item">
+                                          <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                              <i class="fa fa-facebook"></i>
+                                          </a>
+                                      </li>
+                                      <li class="list-inline-item">
+                                          <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                              <i class="fa fa-twitter"></i>
+                                          </a>
+                                      </li>
+                                      <li class="list-inline-item">
+                                          <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                              <i class="fa fa-skype"></i>
+                                          </a>
+                                      </li>
+                                      <li class="list-inline-item">
+                                          <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                              <i class="fa fa-google"></i>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
               </div>
-            </div>
           </div>
+          <!-- ./Team member -->
+          <!-- ./Team member -->
+
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="image-flip" >
+                <div class="mainflip flip-0">
+                    <div class="frontside">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <p><img class=" img-fluid" src="../images/Images/Hawk_.webp" alt="card image"></p>
+                                <h4 class="card-title">Hawk</h4>
+                                <p class="card-text"> Capitan de la orden de la sobras</p>
+                                <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="backside">
+                        <div class="card">
+                            <div class="card-body text-center mt-4">
+                                <h4 class="card-title">Hawk</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non esse sunt reprehenderit laudantium recusandae? Alias, perferendis facere! Quod voluptatibus hic assumenda, impedit, eligendi ab, amet vitae illo ratione quia perferendis?</p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <i class="fa fa-skype"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <i class="fa fa-google"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+        <!-- ./Team member -->
+
+
+  
+          </div>
       </div>
-      </div>
-      </section>
+  </section>
+  <!-- Siete pecados capitales -->
 
-      <section id="Humanos">
-        <a href="https://nanatsu-no-taizai.fandom.com/wiki/Holy_Knights"><h4
-          class="text-left my-5"
-          style="
-            display: flex;
-            text-align: center;
-            text-decoration-line: underline;
-            color: #993434;"
-          
-        >
-          Caballeros Sagrados
-        </h4></a>
-        <div class="row row-cols-4">
-          <div class="col">
-            <div class="card">
-              <a href=""><img
-                src="../images/images/Bartra.png"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Bartra_Liones"
-                  ><h5 class="card-title">Leones de Bartra</h5></a
-                >
-              </div>
+  <!-- Caballeros sagrados -->
+  <section id="team" class="pb-5">
+    <div class="container">
+        <h5 class="section-title h1">Caballeros sagrados</h5>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" >
+                    <div class="mainflip flip-0">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="../images/Images/Bartra.png" alt="card image"></p>
+                                    <h4 class="card-title">Bartra Liones</h4>
+                                    <p class="card-text" style="color: rgb(243, 219, 6);">Rey de Liones</p>
+                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Bartra Liones</h4>
+                                    <p class="card-text" style="color: rgb(243, 219, 6);">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non esse sunt reprehenderit laudantium recusandae? Alias, perferendis facere! Quod voluptatibus hic assumenda, impedit, eligendi ab, amet vitae illo ratione quia perferendis?</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Hendrickson"><img
-                src="../images/images/Hendrickson.jpg"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Hendrickson"
-                  ><h5 class="card-title">Hendrickson</h5></a
-                >
-              </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="../images/Images/Zaratras.jpg" alt="card image"></p>
+                                    <h4 class="card-title">Zaratras</h4>
+                                    <p class="card-text">Gran caballero sagrado</p>
+                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Zaratras</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci deleniti quo mollitia nam, provident pariatur omnis? Reprehenderit culpa modi inventore temporibus esse. Voluptates, deleniti ex molestiae ipsa assumenda adipisci libero?</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Dreyfus"><img
-                src="../images/images/Dreyfus.jpg"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Dreyfus"
-                  ><h5 class="card-title">Dreyfus</h5></a
-                >
-              </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="../images/Images/Dreyfus.jpg" alt="card image"></p>
+                                    <h4 class="card-title">Dreyfus</h4>
+                                    <p class="card-text">Gran caballero sagrado</p>
+                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Dreyfus</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni iure deserunt animi facere sed ut, non ad possimus corporis odio, veritatis ex asperiores consequatur soluta earum omnis itaque harum! Eveniet.</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Zaratras"><img
-                src="../images/images/Zaratras.jpg"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a  style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Zaratras"
-                  ><h5 class="card-title">Zaratras</h5></a
-                >
-              </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="../images/Images/Hendrickson.jpg" alt="card image"></p>
+                                    <h4 class="card-title">Hendrickson</h4>
+                                    <p class="card-text">Gran caballero sagrado</p>
+                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Hendrickson</h4>
+                                    <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Gilthunder"><img
-                src="../images/images/Gilthunder.png"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Gilthunder"
-                  ><h5 class="card-title">Ghilthunder</h5></a
-                >
-              </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="../images/Images/Gilthunder.png" alt="card image"></p>
+                                    <h4 class="card-title">Gilthunder</h4>
+                                    <p class="card-text">Caballero sagrado (Rango diamante)</p>
+                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Gilthunder</h4>
+                                    <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Howzer"><img
-                src="../images/images/Howzer.jpg"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Howzer"
-                  ><h5 class="card-title">Howzer</h5></a
-                >
+            <!-- ./Team member -->
+             <!-- Team member -->
+             <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                  <div class="mainflip">
+                      <div class="frontside">
+                          <div class="card">
+                              <div class="card-body text-center">
+                                  <p><img class=" img-fluid" src="../images/Images/Howzer.jpg" alt="card image"></p>
+                                  <h4 class="card-title">Howzer</h4>
+                                  <p class="card-text">Caballero sagrado (Rango platino)</p>
+                                  <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="backside">
+                          <div class="card">
+                              <div class="card-body text-center mt-4">
+                                  <h4 class="card-title">Howzer</h4>
+                                  <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                  <ul class="list-inline">
+                                      <li class="list-inline-item">
+                                          <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                              <i class="fa fa-facebook"></i>
+                                          </a>
+                                      </li>
+                                      <li class="list-inline-item">
+                                          <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                              <i class="fa fa-twitter"></i>
+                                          </a>
+                                      </li>
+                                      <li class="list-inline-item">
+                                          <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                              <i class="fa fa-skype"></i>
+                                          </a>
+                                      </li>
+                                      <li class="list-inline-item">
+                                          <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                              <i class="fa fa-google"></i>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
               </div>
-            </div>
           </div>
-      </section>
-
-
-      <section id="Mandamientos">
-       <h4
-          class="text-left my-5"
-          style="
-            display: flex;
-            text-align: center;
-            text-decoration-line: underline;
-            color: #993434;"
-          
-        >
-          Los 10 Mandamientos y Clan demonio
-        </h4></a>
-        <a href="https://nanatsu-no-taizai.fandom.com/wiki/Ten_Commandments"><h5
-          class="text-center my-5"
-          style="
-            text-align: center;
-            text-decoration-line: underline;
-            color: #993434;"
-          
-        >
-          Los 10 Mandamientos
-        </h5></a>
-        <div class="row row-cols-4">
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Zeldris"><img
-                src="../images/Images/Zeldris.jpg"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Zeldris"
-                  ><h5 class="card-title">
-                    Zeldris (Mandamiento de la piedad)
-                  </h5></a
-                >
-              </div>
+          <!-- ./Team member -->
+           <!-- Team member -->
+           <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                <div class="mainflip">
+                    <div class="frontside">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <p><img class=" img-fluid" src="../images/Images/Griamore.jpg" alt="card image"></p>
+                                <h4 class="card-title">Griamore</h4>
+                                <p class="card-text">Caballero sagrado (Rango platino)</p>
+                                <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="backside">
+                        <div class="card">
+                            <div class="card-body text-center mt-4">
+                                <h4 class="card-title">Griamore </h4>
+                                <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <i class="fa fa-skype"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <i class="fa fa-google"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Mael#Estarossa"><img
-                src="../images/Images/Estarrosa.jpg"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Mael#Estarossa"
-                  ><h5 class="card-title">
-                    Estarossa (Mandamiento del amor)
-                  </h5></a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Galand"><img
-                src="../images/Images/Galand.jpg"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a style="color: #993434;"  href="https://nanatsu-no-taizai.fandom.com/wiki/Galand"
-                  ><h5 class="card-title">Galand (Mandamiento de verdad)</h5></a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card" >
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Melascula"><img
-                src="../images/Images/melascula.jpg"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Melascula"
-                  ><h5 class="card-title">
-                    Melascula (Mandamiento de la fe)
-                  </h5></a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Drole"><img
-                src="../images/Images/Drole.jpg"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Drole"
-                  ><h5 class="card-title">
-                    Drole (Mandamiento de la paciencia)
-                  </h5></a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Gloxinia"><img
-                src="../images/Images/Gloxinia.jpg"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Gloxinia"
-                  ><h5 class="card-title">
-                    Gloxinia (Mandamiento del reposo)
-                  </h5></a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Grayroad"><img
-                src="../images/Images/Grayroad.Jpg"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Grayroad"
-                  ><h5 class="card-title">
-                    Grayroad (Mandamiento del pacifismo)
-                  </h5></a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Derieri"><img
-                src="../images/images/derieri.webp"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Derieri"
-                  ><h5 class="card-title">
-                    Derieri (Mandamiento de la pureza)
-                  </h5></a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Monspeet"><img
-                src="../images/images/Mospeet.jpg"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-              <a style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Monspeet"><h5 class="card-text">
-                    Monspeet (Mandamiento de la reticencia)
-                  </h5></a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Fraudrin"><img
-                src="../images/images/Fraudin.jpg"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Fraudrin"
-                  ><h5 class="card-title">
-                    Fraudin (mandamiento del desinteres)
-                  </h5></a
-                >
-              </div>
-            </div>
-          </div>
         </div>
-        <a href="https://nanatsu-no-taizai.fandom.com/wiki/Demon_Clan"><h5
-          class="text-center my-5"
-          style="
-            text-align: center;
-            text-decoration-line: underline;
-            color: #993434;"
-          
-        >
-          Clan demonio
-        </h5></a>
-        <div class="row row-cols-4">
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Chandler"><img style=" height: 150px;"
-                src="../images/images/Chandler.jpg"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Chandler"
-                  ><h5 class="card-title">Chandler</h5></a
-                >
-              </div>
+        <!-- ./Team member -->
+           <!-- Team member -->
+           <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                <div class="mainflip">
+                    <div class="frontside">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <p><img class=" img-fluid" src="../images/Images/Guila.jpg" alt="card image"></p>
+                                <h4 class="card-title">Guila</h4>
+                                <p class="card-text">Caballero sagrado (Nueva generacion)</p>
+                                <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="backside">
+                        <div class="card">
+                            <div class="card-body text-center mt-4">
+                                <h4 class="card-title">Guila</h4>
+                                <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <i class="fa fa-skype"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <i class="fa fa-google"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Cusack"><img style="height: 150px;"
-                src="../images/images/Cusack.jpg"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Cusack"
-                  ><h5 class="card-title">Cusack</h5></a
-                >
+        </div>
+        <!-- ./Team member -->
+         <!-- Team member -->
+         <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+              <div class="mainflip">
+                  <div class="frontside">
+                      <div class="card">
+                          <div class="card-body text-center">
+                              <p><img class=" img-fluid" src="../images/Images/Jericho.2.jpg" alt="card image"></p>
+                              <h4 class="card-title">Jericho</h4>
+                              <p class="card-text">Caballero sagrado (Nueva generacion)</p>
+                              <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="backside">
+                      <div class="card">
+                          <div class="card-body text-center mt-4">
+                              <h4 class="card-title">Jericho</h4>
+                              <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                              <ul class="list-inline">
+                                  <li class="list-inline-item">
+                                      <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                          <i class="fa fa-facebook"></i>
+                                      </a>
+                                  </li>
+                                  <li class="list-inline-item">
+                                      <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                          <i class="fa fa-twitter"></i>
+                                      </a>
+                                  </li>
+                                  <li class="list-inline-item">
+                                      <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                          <i class="fa fa-skype"></i>
+                                      </a>
+                                  </li>
+                                  <li class="list-inline-item">
+                                      <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                          <i class="fa fa-google"></i>
+                                      </a>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
               </div>
-            </div>
           </div>
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/es/wiki/Demonio_Original"><img
-                src="../images/images/Demonio Original.jpg"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/es/wiki/Demonio_Original"
-                  ><h5 class="card-title">Demonio Original</h5></a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Demon_King"><img
-                src="../images/images/Rey Demonio.webp"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Demon_King"
-                  ><h5 class="card-title">Rey Demonio</h5></a
-                >
-              </div>
-            </div>
-          </div>
-      </section>
+      </div>
+      <!-- ./Team member -->
+           </div>
+  <!-- Caballeros sagrados -->
 
-      <section id="Diosas">
-        <a href="https://nanatsu-no-taizai.fandom.com/wiki/Goddess_Clan"><h4
-          class="text-left my-5"
-          style="
-            display: flex;
-            text-align: center;
-            text-decoration-line: underline;
-            color: #993434;
-          "
-        >
-          Clan de las diosas
-        </h4></a>
-        <div class="row row-cols-4">
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Elizabeth_Liones"><img
-                src="../images/images/Elizabeth.jpg"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Elizabeth_Liones"
-                  ><h5 class="card-title">Elizabeth Liones</h5></a
-                >
-              </div>
+  <!--Clan demonio y mandaminetos -->
+  <section id="team" class="pb-5">
+    <div class="container">
+        <h5 class="section-title h1">Los diez mandamientos y clan demonio</h5>
+        <div class="row">
+          <h6 class="section-text"> Los diez mandaminetos</h6>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" >
+                    <div class="mainflip flip-0">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="../images/Images/Zeldris.jpg" alt="card image"></p>
+                                    <h4 class="card-title">Zeldris</h4>
+                                    <p class="card-text">Mandamiento de la piedad</p>
+                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Zeldris</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non esse sunt reprehenderit laudantium recusandae? Alias, perferendis facere! Quod voluptatibus hic assumenda, impedit, eligendi ab, amet vitae illo ratione quia perferendis?</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Ludociel"><img
-                src="../images/images/Ludociel.png"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Ludociel"
-                  ><h5 class="card-title">Ludociel (Gracia Luz)</h5></a
-                >
-              </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="../images/Images/Estarrosa.jpg" alt="card image"></p>
+                                    <h4 class="card-title">Estarossa</h4>
+                                    <p class="card-text">Mandamiento del amor</p>
+                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Estarossa</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci deleniti quo mollitia nam, provident pariatur omnis? Reprehenderit culpa modi inventore temporibus esse. Voluptates, deleniti ex molestiae ipsa assumenda adipisci libero?</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Sariel"><img
-                src="../images/images/sariel.jpg"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Sariel"
-                  ><h5 class="card-title">Sariel (Gracia Tornado)</h5></a
-                >
-              </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="../images/Images/Galand.jpg" alt="card image"></p>
+                                    <h4 class="card-title">Galand</h4>
+                                    <p class="card-text">Mandamiento de la verdad</p>
+                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Galand</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni iure deserunt animi facere sed ut, non ad possimus corporis odio, veritatis ex asperiores consequatur soluta earum omnis itaque harum! Eveniet.</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Tarmiel"><img
-                src="../images/images/Tarmiel.jpg"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a  style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Tarmiel"
-                  ><h5 class="card-title">Tarmiel (Gracia Oceano)</h5></a
-                >
-              </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="../images/Images/melascula.jpg" alt="card image"></p>
+                                    <h4 class="card-title">Melascula</h4>
+                                    <p class="card-text">Mandamiento de la fe</p>
+                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Melascula</h4>
+                                    <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Mael"><img
-                src="../images/images/Mael.jpg"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Mael"
-                  ><h5 class="card-title">Mael (Gracia Sunshine)</h5></a
-                >
-              </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="../images/Images/Fraudin.jpg" alt="card image"></p>
+                                    <h4 class="card-title">Fraudin</h4>
+                                    <p class="card-text">Mandamiento del desinteres</p>
+                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Fraudin</h4>
+                                    <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="https://nanatsu-no-taizai.fandom.com/wiki/Supreme_Deity"><img
-                src="../images/images/deidad-suprema.jpg"
-                class="card-img-top"
-                alt="..."
-              /></a>
-              <div class="card-body">
-                <a style="color: #993434;" href="https://nanatsu-no-taizai.fandom.com/wiki/Supreme_Deity"
-                  ><h5 class="card-title">Deidad Suprema</h5></a
-                >
+            <!-- ./Team member -->
+             <!-- Team member -->
+             <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                  <div class="mainflip">
+                      <div class="frontside">
+                          <div class="card">
+                              <div class="card-body text-center">
+                                  <p><img class=" img-fluid" src="../images/Images/derieri.webp" alt="card image"></p>
+                                  <h4 class="card-title">Derieri</h4>
+                                  <p class="card-text">Mandamiento de la pureza</p>
+                                  <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="backside">
+                          <div class="card">
+                              <div class="card-body text-center mt-4">
+                                  <h4 class="card-title">Derieri</h4>
+                                  <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                  <ul class="list-inline">
+                                      <li class="list-inline-item">
+                                          <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                              <i class="fa fa-facebook"></i>
+                                          </a>
+                                      </li>
+                                      <li class="list-inline-item">
+                                          <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                              <i class="fa fa-twitter"></i>
+                                          </a>
+                                      </li>
+                                      <li class="list-inline-item">
+                                          <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                              <i class="fa fa-skype"></i>
+                                          </a>
+                                      </li>
+                                      <li class="list-inline-item">
+                                          <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                              <i class="fa fa-google"></i>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
               </div>
-            </div>
           </div>
+          <!-- ./Team member -->
+           <!-- Team member -->
+           <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                <div class="mainflip">
+                    <div class="frontside">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <p><img class=" img-fluid" src="../images/Images/Mospeet.jpg" alt="card image"></p>
+                                <h4 class="card-title">Monspeet</h4>
+                                <p class="card-text">Mandamiento de la resistencia</p>
+                                <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="backside">
+                        <div class="card">
+                            <div class="card-body text-center mt-4">
+                                <h4 class="card-title">Monspeet</h4>
+                                <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <i class="fa fa-skype"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <i class="fa fa-google"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ./Team member -->
+           <!-- Team member -->
+           <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                <div class="mainflip">
+                    <div class="frontside">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <p><img class=" img-fluid" src="../images/Images/Grayroad.Jpg" alt="card image"></p>
+                                <h4 class="card-title">Grayroad</h4>
+                                <p class="card-text">Mandamiento del pacifismo</p>
+                                <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="backside">
+                        <div class="card">
+                            <div class="card-body text-center mt-4">
+                                <h4 class="card-title">Grayroad</h4>
+                                <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <i class="fa fa-skype"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                            <i class="fa fa-google"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ./Team member -->
+         <!-- Team member -->
+         <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+              <div class="mainflip">
+                  <div class="frontside">
+                      <div class="card">
+                          <div class="card-body text-center">
+                              <p><img class=" img-fluid" src="../images/Images/Drole.jpg" alt="card image"></p>
+                              <h4 class="card-title">Drole</h4>
+                              <p class="card-text">Mandamiento de la paciencia</p>
+                              <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="backside">
+                      <div class="card">
+                          <div class="card-body text-center mt-4">
+                              <h4 class="card-title">Drole</h4>
+                              <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                              <ul class="list-inline">
+                                  <li class="list-inline-item">
+                                      <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                          <i class="fa fa-facebook"></i>
+                                      </a>
+                                  </li>
+                                  <li class="list-inline-item">
+                                      <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                          <i class="fa fa-twitter"></i>
+                                      </a>
+                                  </li>
+                                  <li class="list-inline-item">
+                                      <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                          <i class="fa fa-skype"></i>
+                                      </a>
+                                  </li>
+                                  <li class="list-inline-item">
+                                      <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                          <i class="fa fa-google"></i>
+                                      </a>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- ./Team member -->
+      <!-- Team member -->
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+            <div class="mainflip">
+                <div class="frontside">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <p><img class=" img-fluid" src="../images/Images/Gloxinia.jpg" alt="card image"></p>
+                            <h4 class="card-title">Gloxinia</h4>
+                            <p class="card-text">Mandamiento del reposo</p>
+                            <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="backside">
+                    <div class="card">
+                        <div class="card-body text-center mt-4">
+                            <h4 class="card-title">Gloxinia</h4>
+                            <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                        <i class="fa fa-skype"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                        <i class="fa fa-google"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ./Team member -->
+           </div>
 
+           <div class="row">
+            <h6 class="section-text"> Clan demonio</h6>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                  <div class="image-flip" >
+                      <div class="mainflip flip-0">
+                          <div class="frontside">
+                              <div class="card">
+                                  <div class="card-body text-center">
+                                      <p><img class=" img-fluid" src="../images/Images/Meliodas modo asalto.jpg" alt="card image"></p>
+                                      <h4 class="card-title">Meliodas "Modo asalto" </h4>
+                                      <p class="card-text">(Ex-capitan de los 10 mandamientos y antiguo portador de mandamiento del amor)</p>
+                                      <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="backside">
+                              <div class="card">
+                                  <div class="card-body text-center mt-4">
+                                      <h4 class="card-title">Meliodas "Modo asalto"</h4>
+                                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non esse sunt reprehenderit laudantium recusandae? Alias, perferendis facere! Quod voluptatibus hic assumenda, impedit, eligendi ab, amet vitae illo ratione quia perferendis?</p>
+                                      <ul class="list-inline">
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-facebook"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-twitter"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-skype"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-google"></i>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- ./Team member -->
+              <!-- Team member -->
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                  <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                      <div class="mainflip">
+                          <div class="frontside">
+                              <div class="card">
+                                  <div class="card-body text-center">
+                                      <p><img class=" img-fluid" src="../images/Images/Gowther_demonio.webp" alt="card image"></p>
+                                      <h4 class="card-title">Gowther (Original)</h4>
+                                      <p class="card-text">Antiguo portador del mandamiento del desinteres</p>
+                                      <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="backside">
+                              <div class="card">
+                                  <div class="card-body text-center mt-4">
+                                      <h4 class="card-title">Gowther (Original)</h4>
+                                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci deleniti quo mollitia nam, provident pariatur omnis? Reprehenderit culpa modi inventore temporibus esse. Voluptates, deleniti ex molestiae ipsa assumenda adipisci libero?</p>
+                                      <ul class="list-inline">
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-facebook"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-twitter"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-skype"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-google"></i>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- ./Team member -->
+              <!-- Team member -->
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                  <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                      <div class="mainflip">
+                          <div class="frontside">
+                              <div class="card">
+                                  <div class="card-body text-center">
+                                      <p><img class=" img-fluid" src="../images/Images/Cusack.jpg" alt="card image"></p>
+                                      <h4 class="card-title">Cusack</h4>
+                                      <p class="card-text">Maestro de Zeldris</p>
+                                      <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="backside">
+                              <div class="card">
+                                  <div class="card-body text-center mt-4">
+                                      <h4 class="card-title2">Cusack</h4>
+                                      <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni iure deserunt animi facere sed ut, non ad possimus corporis odio, veritatis ex asperiores consequatur soluta earum omnis itaque harum! Eveniet.</p>
+                                      <ul class="list-inline">
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-facebook"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-twitter"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-skype"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-google"></i>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- ./Team member -->
+              <!-- Team member -->
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                  <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                      <div class="mainflip">
+                          <div class="frontside">
+                              <div class="card">
+                                  <div class="card-body text-center">
+                                      <p><img class=" img-fluid" src="../images/Images/Chandler.jpg" alt="card image"></p>
+                                      <h4 class="card-title">Chandler</h4>
+                                      <p class="card-text">Maestro de meliodas</p>
+                                      <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="backside">
+                              <div class="card">
+                                  <div class="card-body text-center mt-4">
+                                      <h4 class="card-title">Chandler</h4>
+                                      <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                      <ul class="list-inline">
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-facebook"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-twitter"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-skype"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-google"></i>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- ./Team member -->
+              <!-- Team member -->
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                  <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                      <div class="mainflip">
+                          <div class="frontside">
+                              <div class="card">
+                                  <div class="card-body text-center">
+                                      <p><img class=" img-fluid" src="../images/Images/Demonio Original.jpg" alt="card image"></p>
+                                      <h4 class="card-title">Demonio Original</h4>
+                                      <p class="card-text">Verdadera forma de los maestros demonios</p>
+                                      <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="backside">
+                              <div class="card">
+                                  <div class="card-body text-center mt-4">
+                                      <h4 class="card-title">Demonio Original</h4>
+                                      <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                      <ul class="list-inline">
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-facebook"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-twitter"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-skype"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-google"></i>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- ./Team member -->
+               <!-- Team member -->
+               <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="../images/Images/Rey Demonio.webp" alt="card image"></p>
+                                    <h4 class="card-title">Rey demonio</h4>
+                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Rey demonio</h4>
+                                    <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+          </div>
+  <!--Clan demonio y mandaminetos -->
 
+  <!-- Clan de las diosas -->
+  <section id="team" class="pb-5">
+    <div class="container">
+        <h5 class="section-title h1">Clan de las diosas</h5>
+           <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                  <div class="image-flip" >
+                      <div class="mainflip flip-0">
+                          <div class="frontside">
+                              <div class="card">
+                                  <div class="card-body text-center">
+                                      <p><img class=" img-fluid" src="../images/Images/Elizabeth diosa.webp" alt="card image"></p>
+                                      <h4 class="card-title">Elizabeth diosa</h4>
+                                      <p class="card-text">3000 años antes</p>
+                                      <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="backside">
+                              <div class="card">
+                                  <div class="card-body text-center mt-4">
+                                      <h4 class="card-title">Elizabeth diosa</h4>
+                                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non esse sunt reprehenderit laudantium recusandae? Alias, perferendis facere! Quod voluptatibus hic assumenda, impedit, eligendi ab, amet vitae illo ratione quia perferendis?</p>
+                                      <ul class="list-inline">
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-facebook"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-twitter"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-skype"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-google"></i>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- ./Team member -->
+              <!-- Team member -->
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                  <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                      <div class="mainflip">
+                          <div class="frontside">
+                              <div class="card">
+                                  <div class="card-body text-center">
+                                      <p><img class=" img-fluid" src="../images/Images/sariel.jpg" alt="card image"></p>
+                                      <h4 class="card-title">Sariel</h4>
+                                      <p class="card-text">Gracia del tornado</p>
+                                      <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="backside">
+                              <div class="card">
+                                  <div class="card-body text-center mt-4">
+                                      <h4 class="card-title">Sariel</h4>
+                                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci deleniti quo mollitia nam, provident pariatur omnis? Reprehenderit culpa modi inventore temporibus esse. Voluptates, deleniti ex molestiae ipsa assumenda adipisci libero?</p>
+                                      <ul class="list-inline">
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-facebook"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-twitter"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-skype"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-google"></i>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- ./Team member -->
+              <!-- Team member -->
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                  <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                      <div class="mainflip">
+                          <div class="frontside">
+                              <div class="card">
+                                  <div class="card-body text-center">
+                                      <p><img class=" img-fluid" src="../images/Images/Tarmiel.jpg" alt="card image"></p>
+                                      <h4 class="card-title">Tarmiel</h4>
+                                      <p class="card-text">Gracia del oceano</p>
+                                      <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="backside">
+                              <div class="card">
+                                  <div class="card-body text-center mt-4">
+                                      <h4 class="card-title">Tarmiel</h4>
+                                      <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni iure deserunt animi facere sed ut, non ad possimus corporis odio, veritatis ex asperiores consequatur soluta earum omnis itaque harum! Eveniet.</p>
+                                      <ul class="list-inline">
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-facebook"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-twitter"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-skype"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-google"></i>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- ./Team member -->
+              <!-- Team member -->
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                  <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                      <div class="mainflip">
+                          <div class="frontside">
+                              <div class="card">
+                                  <div class="card-body text-center">
+                                      <p><img class=" img-fluid" src="../images/Images/Ludociel.png" alt="card image"></p>
+                                      <h4 class="card-title">Ludociel</h4>
+                                      <p class="card-text">Gracia de la luz y capitan de los cuatro arcangeles</p>
+                                      <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="backside">
+                              <div class="card">
+                                  <div class="card-body text-center mt-4">
+                                      <h4 class="card-title">Ludociel</h4>
+                                      <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                      <ul class="list-inline">
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-facebook"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-twitter"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-skype"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-google"></i>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- ./Team member -->
+              <!-- Team member -->
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                  <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                      <div class="mainflip">
+                          <div class="frontside">
+                              <div class="card">
+                                  <div class="card-body text-center">
+                                      <p><img class=" img-fluid" src="../images/Images/Mael.jpg" alt="card image"></p>
+                                      <h4 class="card-title">Mael</h4>
+                                      <p class="card-text">Gracia sunshine</p>
+                                      <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="backside">
+                              <div class="card">
+                                  <div class="card-body text-center mt-4">
+                                      <h4 class="card-title">Mael</h4>
+                                      <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                      <ul class="list-inline">
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-facebook"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-twitter"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-skype"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                  <i class="fa fa-google"></i>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- ./Team member -->
+               <!-- Team member -->
+               <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="../images/Images/deidad-suprema.jpg" alt="card image"></p>
+                                    <h4 class="card-title">Deidad suprema</h4>
+                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Deidad suprema</h4>
+                                    <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+          </div>
+  <!-- Clan de las diosas -->
+</main>
 
-
-
-      </section>
-    </main>
+<!-- Footer -->
     <footer>
       <div class="container-fluid">
         <div class="row p-5 text-white">
@@ -686,8 +2086,8 @@
             <div class="mb-3">
               <a
                 class="text-secondary text-decoration-none"
-                href="../pages/manga.html"
-                >Manga</a
+                href="../pages/peliculas.html"
+                >Peliculas</a
               >
             </div>
             <div class="mb-3">
@@ -747,17 +2147,15 @@
             <img src="../images/Hawk demon gray.png" alt="" />
             <p class="h6 text-secondary"></p>
           </div>
-          <div class="container">
             <div class="row pt-3">
               <div class="col col-md-6 col-lg-3">
-                <p class="text-secondary" style="color: white">
-                  © Copyright - 2023 - Armory -
+                <p class="text-secondary">
+                  © Copyright - 2023 - Armory 
                 </p>
               </div>
             </div>
           </div>
         </div>
-      </div>
     </footer>
   </body>
 </html>

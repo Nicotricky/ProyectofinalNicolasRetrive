@@ -1,0 +1,63 @@
+/*--Main--*/
+
+.animated-text {
+  background: linear-gradient(90deg, red, rgb(241, 226, 11), red) 0 0/400% 100%;
+  animation: move-bg 4s infinite linear;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+@keyframes move-bg {
+  to {
+    background-position: 400% 0;
+  }
+}
+
+.titulo_centrado {
+  margin-top: 20px;
+  text-align: center;
+  padding: 1rem;
+  animation: titulo_desplazado 1.5s ease;
+}
+
+main .about {
+  margin: 10px;
+  margin-top: 2%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #72201a;
+  border: 2px solid black;
+  border-radius: 5%;
+  transition: 0.4s ease;
+  color: white;
+  justify-content: center;
+  box-shadow: 0 0 10px #fffefe;
+}
+
+.container {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.pt-5 {
+  padding-top: 3rem !important;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}

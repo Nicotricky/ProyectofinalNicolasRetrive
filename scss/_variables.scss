@@ -1,0 +1,12 @@
+$primary-color: #832121;
+$secondary-color: #ffffff;
+$clr-white: #000000;
+
+.ratio-16x9 {
+  --bs-aspect-ratio: 75.25%;
+}
+
+.ratio {
+  position: relative;
+  width: 50%;
+}

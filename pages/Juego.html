@@ -9,13 +9,28 @@
       href="../images/Nanatsu no Taizai.PNG"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="../css/1style.css" />
+    <!--Css style-->
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <!--Boostrap-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
+
+    <!--animated css-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Juegos</title>
   </head>
   <body>
@@ -24,6 +39,8 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+
+    <!--Nav/menu-->
     <header class="header">
       <nav
         class="navbar navbar-expand-lg navbar-dark"
@@ -34,7 +51,7 @@
             ><img
               src="../images/Anime_Confirmation_Logo (1).png"
               alt=""
-              width="200px"
+              width="150px"
           /></a>
           <button
             class="navbar-toggler"
@@ -50,11 +67,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="../index.html">Inicio</a>
+                <a class="color_a nav-link active" href="../index.html"
+                  >Inicio</a
+                >
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="color_a nav-link active dropdown-toggle"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -64,9 +83,12 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="../pages/manga.html"
-                      >Manga</a
+                    <a class="dropdown-item" href="../pages/peliculas.html"
+                      >Peliculas</a
                     >
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
                   </li>
                   <li>
                     <a class="dropdown-item" href="../pages/anime.html"
@@ -76,81 +98,263 @@
                   <li><hr class="dropdown-divider" /></li>
                 </ul>
               </li>
-
               <li class="nav-item">
-                <a class="nav-link" href="../pages/Personajes.html"
+                <a
+                  class="color_a nav-link active"
+                  href="../pages/Personajes.html"
                   >Personajes</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../pages/Creador.html">Creador</a>
+                <a class="color_a nav-link active" href="../pages/Creador.html"
+                  >Creador</a
+                >
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
+
+    <!--Main-->
     <main>
-      <h1
-        class="animated-text"
-        style="text-align: center; margin-top: 40px; margin-bottom: 40px"
-      >
-        Juegos
-      </h1>
-      <div
-        id="carouselExampleControls"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="../images/the_seven_deadly_sins_nanatsu_no_taizai_origin_videojuego_juego.webp"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="../images/the-seven-deadly-sins-knights-of-britannia-.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="../images/Grand cross.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+      <div class="games">
+        <h1>
+          Los Siete Pecados Capitales:
+          <snap class="animated-text"> Grand Cross Wiki</snap>
+        </h1>
+        <p>
+          Los Siete Pecados Capitales: Grand Cross es un juego para teléfonos
+          móviles basado en la serie de manga y anime Nanatsu no Taizai,
+          desarrollado por Netmarble Fun y Netmarble para dispositivos iOS y
+          Android. 7DSGC Wiki alberga actualmente toda la información
+          relacionada al juego, tales como Héroes, Calificaciones, Eventos, JcJ,
+          Modo Historia, Mazmorras, Jefes, Guías de Equipo y más.
+        </p>
+        <img src="/images/Hero-guides.webp" alt="" />
       </div>
+      <div>
+        <h2 class="Heroes">Equipo para Personajes</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/brXCzUA2bsU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+
+      <div class="mw-parser-output">
+        <div class="table-wide"><div class="table-wide-inner">
+        <table style="border: 1px solid black; width: 100%;">
+        <tbody>
+        <tr>
+        <th colspan="7" style="background: #c0c2be; border: 1px solid black;"><a href="../images/Heroes_Banner_2.webp" class="image"><img alt="" src="../images/Heroes_Banner_2.webp" decoding="async" loading="lazy" width="695" height="154" data-image-name="Heroes Banner 2.png" data-image-key="Heroes_Banner_2.png" _mstalt="433849" _msthash="290"></a></th>
+        </tr>
+        <tr>
+        <th colspan="7" style="background: #c0c2be; border: 1px solid black;"><font size="-1"><font color="red" _msttexthash="3618355" _msthash="291"> Actualizado a partir del 17 de mayo de 2023 para servidores globales/asiáticos </font>f</th></tr>
+        <tr>
+        <th colspan="7" style="background: #c0c2be; border: 1px solid black;"><font size="-1"><font color="red" _msttexthash="4758104" _msthash="292">Los héroes se ordenan alfabéticamente dentro de cada nivel para facilitar la navegación. </font></font></th></tr>
+        <tr>
+        <th rowspan="2" width="28%" style="background: #260B06; border: 1px solid black;"><font size="+2"><font color="white" _msttexthash="25896" _msthash="293">SSS
+        </font></font></th>
+        <th colspan="6" width="12%" style="background: #ff9000; border: 1px solid black;" _msttexthash="647465" _msthash="294">Los mejores héroes del juego </th></tr>
+        <tr>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Light_%22The_One%22_Ultimate_Escanor" title="Light &quot;The One&quot; Ultimate Escanor"><img alt="Lfolescanor" src="/images/Light_The_One_Ultimate_Escanor_Icon.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Light The One Ultimate Escanor Icon.png" data-image-key="Light_The_One_Ultimate_Escanor_Icon.png" _mstalt="181051" _msthash="295"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Light_Mael_of_Sunshine" title="Light Mael of Sunshine"><img alt="Lmael" src="/images/Lmael.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Lmael.png" data-image-key="Lmael.png" _mstalt="58175" _msthash="296"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Dark_Purgatory_Meliodas" title="Dark Purgatory Meliodas"><img alt="Dpmeliodas" src="/images/Dpmeliodas.webp" class=" ls-is-cached lazyloaded" _mstalt="155337" _msthash="297"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Dark_Traitor_Meliodas" title="Dark Traitor Meliodas"><img alt="Dtmeliodas" src="/images/Dtmeliodas.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Dtmeliodas.png" data-image-key="Dtmeliodas.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/7/70/Dtmeliodas.png/revision/latest/scale-to-width-down/70?cb=20220106181408" class=" ls-is-cached lazyloaded" _mstalt="155753" _msthash="298"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Red_Tarmiel" title="Red Tarmiel"><img alt="Rtarmiel" src="/images/Rtarmiel.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Rtarmiel.png" data-image-key="Rtarmiel.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/8/87/Rtarmiel.png/revision/latest/scale-to-width-down/70?cb=20220510183449" class=" lazyloaded" _mstalt="114387" _msthash="299"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;">
+        </th></tr>
+        <tr>
+        <th rowspan="4" width="28%" style="background: #260B06; border: 1px solid black;"><font size="+2"><font color="white" _msttexthash="16185" _msthash="300">SS
+        </font></font></th></tr>
+        <tr>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Green_Brunhild" title="Green Brunhild"><img alt="Gbrunhild" src="/images/Gbrunhild.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Gbrunhild.png" data-image-key="Gbrunhild.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/8/8d/Gbrunhild.png/revision/latest/scale-to-width-down/70?cb=20210924152748" class=" ls-is-cached lazyloaded" _mstalt="134056" _msthash="301"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Red_Festival_Queen_Diane" title="Red Festival Queen Diane"><img alt="Rfdiane" src="/images/Rfdiane.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Rfdiane.png" data-image-key="Rfdiane.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/7/7a/Rfdiane.png/revision/latest/scale-to-width-down/70?cb=20220327054852" class=" ls-is-cached lazyloaded" _mstalt="91520" _msthash="302"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Green_Echidna" title="Green Echidna"><img alt="Retrato de Greenechidna" src="/images/Greenechidna_portrait.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Greenechidna portrait.png" data-image-key="Greenechidna_portrait.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/4/40/Greenechidna_portrait.png/revision/latest/scale-to-width-down/70?cb=20220907005745" class=" ls-is-cached lazyloaded" _mstalt="475592" _msthash="303"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Light_Eternal_Rebirth_Elizabeth" title="Light Eternal Rebirth Elizabeth"><img alt="Lelizabeth" src="/images/Lelizabeth.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Lelizabeth.png" data-image-key="Lelizabeth.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/2/26/Lelizabeth.png/revision/latest/scale-to-width-down/70?cb=20220614020051" class=" ls-is-cached lazyloaded" _mstalt="155480" _msthash="304"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Blue_%22The_One%22_Escanor" title="Blue &quot;The One&quot; Escanor"><img alt="Btoescanor" src="/images/Btoescanor.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Btoescanor.png" data-image-key="Btoescanor.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/f/f0/Btoescanor.png/revision/latest/scale-to-width-down/70?cb=20210215181044" class=" lazyloaded" _mstalt="157846" _msthash="305"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Blue_Festival_Berserk_Estarossa" title="Blue Festival Berserk Estarossa"><img alt="Bbestarossa" src="/images/Bbestarossa.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Bbestarossa.png" data-image-key="Bbestarossa.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/7/7c/Bbestarossa.png/revision/latest/scale-to-width-down/70?cb=20220803225858" class=" lazyloaded" _mstalt="181935" _msthash="306"></a>
+        </th></tr>
+        <tr>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Red_Freyja" title="Red Freyja"><img alt="Rfreyja" src="/images/Rfreyja.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Rfreyja.png" data-image-key="Rfreyja.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/b/bb/Rfreyja.png/revision/latest/scale-to-width-down/70?cb=20230131043815" class=" ls-is-cached lazyloaded" _mstalt="94770" _msthash="307"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Red_Freyr" title="Red Freyr"><img alt="Rfreyr" src="/images/Rfreyr.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Rfreyr.png" data-image-key="Rfreyr.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/4/48/Rfreyr.png/revision/latest/scale-to-width-down/70?cb=20220706155408" class=" ls-is-cached lazyloaded" _mstalt="79625" _msthash="308"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Green_Festival_Gowther" title="Green Festival Gowther"><img alt="Gfgowther" src="/images/Gfgowther.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Gfgowther.png" data-image-key="Gfgowther.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/4/4d/Gfgowther.png/revision/latest/scale-to-width-down/70?cb=20211012175505" class=" ls-is-cached lazyloaded" _mstalt="136851" _msthash="309"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Red_Gowther" title="Red Gowther"><img alt="Rgowther" src="/images/Rgowther.webp" decoding="async" loading="lazy" width="75" height="75" data-image-name="Rgowther.png" data-image-key="Rgowther.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/f/f0/Rgowther.png/revision/latest/scale-to-width-down/75?cb=20200513234214" class=" ls-is-cached lazyloaded" _mstalt="117260" _msthash="310"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Blue_Fairy_King_Harlequin" title="Blue Fairy King Harlequin"><img alt="Bfkharlequin" src="/images/Bfkharlequin.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Bfkharlequin.png" data-image-key="Bfkharlequin.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/5/56/Bfkharlequin.png/revision/latest/scale-to-width-down/70?cb=20211208082150" class=" lazyloaded" _mstalt="206258" _msthash="311"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Blue_Festival_Ludociel" title="Blue Festival Ludociel"><img alt="Bfludociel" src="/images/Bfludociel.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Bfludociel.png" data-image-key="Bfludociel.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/c/cd/Bfludociel.png/revision/latest/scale-to-width-down/70?cb=20210825052954" class=" lazyloaded" _mstalt="154076" _msthash="312"></a>
+        </th></tr>
+        <tr>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Green_Demon_Lord_Rimuru_Tempest" title="Green Demon Lord Rimuru Tempest"><img alt="Gdlrimuru" src="/images/Gdlrimuru.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Gdlrimuru.png" data-image-key="Gdlrimuru.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/e/e7/Gdlrimuru.png/revision/latest/scale-to-width-down/70?cb=20220512043812" class=" ls-is-cached lazyloaded" _mstalt="139672" _msthash="313"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Green_Festival_Zeldris" title="Green Festival Zeldris"><img alt="Gfzeldris" src="/images/Gfzeldris.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Gfzeldris.png" data-image-key="Gfzeldris.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/0/02/Gfzeldris.png/revision/latest/scale-to-width-down/70?cb=20210524192450" class=" ls-is-cached lazyloaded" _mstalt="136318" _msthash="314"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;">
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;">
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;">
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;">
+        </th></tr>
+        <tr>
+        <th rowspan="5" width="28%" style="background: #260B06; border: 1px solid black;"><font size="+2"><font color="white" _msttexthash="7553" _msthash="315">S
+        </font></font></th>
+        <th colspan="6" width="12%" style="background: #ff9000; border: 1px solid black;" _msttexthash="1576471" _msthash="316">Héroes con alto valor y que vale la pena construir </th></tr>
+        <tr>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Red_Excalibur_Arthur" title="Red Excalibur Arthur"><img alt="Rearthur" src="/images/Rearthur.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Rearthur.png" data-image-key="Rearthur.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/a/a6/Rearthur.png/revision/latest/scale-to-width-down/70?cb=20210608211900" class=" ls-is-cached lazyloaded" _mstalt="117468" _msthash="317"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Green_New_King_Arthur" title="Green New King Arthur"><img alt="Gnkarthur" src="/images/Gnkarthur.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Gnkarthur.png" data-image-key="Gnkarthur.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/8/8a/Gnkarthur.png/revision/latest/scale-to-width-down/70?cb=20210215181045" class=" ls-is-cached lazyloaded" _mstalt="138528" _msthash="318"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Blue_Ban" title="Blue Ban"><img alt="Bban" src="/images/Bban.webp" decoding="async" loading="lazy" width="75" height="75" data-image-name="Bban.png" data-image-key="Bban.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/2/22/Bban.png/revision/latest/scale-to-width-down/75?cb=20200517201245" class=" ls-is-cached lazyloaded" _mstalt="41847" _msthash="319"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Blue_Festival_Cusack" title="Blue Festival Cusack"><img alt="Bfcusack" src="/images/Bfcusack.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Bfcusack.png" data-image-key="Bfcusack.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/a/a1/Bfcusack.png/revision/latest/scale-to-width-down/70?cb=20210907200430" class=" ls-is-cached lazyloaded" _mstalt="111189" _msthash="320"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Green_Halloween_Gowther" title="Green Halloween Gowther"><img alt="Ghgowther" src="/images/Ghgowther.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Ghgowther.png" data-image-key="Ghgowther.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/0/03/Ghgowther.png/revision/latest/scale-to-width-down/70?cb=20201026065218" class=" ls-is-cached lazyloaded" _mstalt="137059" _msthash="321"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Green_Jormungand" title="Green Jormungand"><img alt="Gjormungand" src="/images/Gjormungand.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Gjormungand.png" data-image-key="Gjormungand.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/8/8f/Gjormungand.png/revision/latest/scale-to-width-down/70?cb=20220512061517" class=" ls-is-cached lazyloaded" _mstalt="180362" _msthash="322"></a>
+        </th></tr>
+        <tr>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Blue_Ludociel" title="Blue Ludociel"><img alt="Bludociel" src="/images/Bludociel.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Bludociel.png" data-image-key="Bludociel.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/2/2e/Bludociel.png/revision/latest/scale-to-width-down/70?cb=20201215084743" class=" ls-is-cached lazyloaded" _mstalt="132431" _msthash="323"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Red_Halloween_Matrona" title="Red Halloween Matrona"><img alt="Rhmatrona" src="/images/Rhmatrona.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Rhmatrona.png" data-image-key="Rhmatrona.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/d/d0/Rhmatrona.png/revision/latest/scale-to-width-down/70?cb=20211020003931" class=" ls-is-cached lazyloaded" _mstalt="135707" _msthash="324"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Blue_Megellda" title="Blue Megellda"><img alt="Bmegellda" src="/images/Bmegellda.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Bmegellda.png" data-image-key="Bmegellda.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/f/f2/Bmegellda.png/revision/latest/scale-to-width-down/70?cb=20211123193717" class=" ls-is-cached lazyloaded" _mstalt="129207" _msthash="325"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Red_Megellda" title="Red Megellda"><img alt="Rmegellda" src="/images/Rmegellda.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Rmegellda.png" data-image-key="Rmegellda.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/a/a0/Rmegellda.png/revision/latest/scale-to-width-down/70?cb=20230328055623" class=" ls-is-cached lazyloaded" _mstalt="130663" _msthash="326"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Green_Festival_Merlin" title="Green Festival Merlin"><img alt="Gfmerlin" src="/images/Gfmerlin.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Gfmerlin.png" data-image-key="Gfmerlin.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/b/b5/Gfmerlin.png/revision/latest/scale-to-width-down/70?cb=20210413054216" class=" ls-is-cached lazyloaded" _mstalt="113867" _msthash="327"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Blue_Milim" title="Blue Milim"><img alt="Bmilim" src="/images/Bmilim.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Bmilim.png" data-image-key="Bmilim.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/1/14/Bmilim.png/revision/latest/scale-to-width-down/70?cb=20200517201257" class=" ls-is-cached lazyloaded" _mstalt="75686" _msthash="328"></a>
+        </th></tr>
+        <tr>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Green_Ram" title="Green Ram"><img alt="Gramo" src="/images/Gram.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Gram.png" data-image-key="Gram.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/a/ab/Gram.png/revision/latest/scale-to-width-down/70?cb=20210511065455" class=" ls-is-cached lazyloaded" _mstalt="59709" _msthash="329"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Blue_Roxy_of_Madness" title="Blue Roxy of Madness"><img alt="Bmroxy" src="/images/Bmroxy.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Bmroxy.png" data-image-key="Bmroxy.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/4/47/Bmroxy.png/revision/latest/scale-to-width-down/70?cb=20230403233454" class=" ls-is-cached lazyloaded" _mstalt="81146" _msthash="330"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Green_Sariel" title="Green Sariel"><img alt="Gsariel" src="/images/Gsariel.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Gsariel.png" data-image-key="Gsariel.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/a/a5/Gsariel.png/revision/latest/scale-to-width-down/70?cb=20220125152006" class=" ls-is-cached lazyloaded" _mstalt="93613" _msthash="331"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Red_Sariel" title="Red Sariel"><img alt="Rsariel" src="/images/Rsariel.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Rsariel.png" data-image-key="Rsariel.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/4/4c/Rsariel.png/revision/latest/scale-to-width-down/70?cb=20210111234913" class=" ls-is-cached lazyloaded" _mstalt="94614" _msthash="332"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Green_Shin" title="Green Shin"><img alt="Gshin" src="/images/Gshin.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Gshin.png" data-image-key="Gshin.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/3/3f/Gshin.png/revision/latest/scale-to-width-down/70?cb=20201019202420" class=" ls-is-cached lazyloaded" _mstalt="59969" _msthash="333"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Red_Sigurd" title="Red Sigurd"><img alt="Rsigurd" src="/images/Rsigurd.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Rsigurd.png" data-image-key="Rsigurd.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/8/88/Rsigurd.png/revision/latest/scale-to-width-down/70?cb=20210721002909" class=" ls-is-cached lazyloaded" _mstalt="96512" _msthash="334"></a>
+        </th></tr>
+        <tr>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Red_Skadi" title="Red Skadi"><img alt="Rskadi" src="/images/Rskadi.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Rskadi.png" data-image-key="Rskadi.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/e/ef/Rskadi.png/revision/latest/scale-to-width-down/70?cb=20220209233050" class=" ls-is-cached lazyloaded" _mstalt="75231" _msthash="335"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Blue_Tarmiel" title="Blue Tarmiel"><img alt="Btarmiel" src="/images/Btarmiel.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Btarmiel.png" data-image-key="Btarmiel.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/1/15/Btarmiel.png/revision/latest/scale-to-width-down/70?cb=20210111234913" class=" ls-is-cached lazyloaded" _mstalt="112931" _msthash="336"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Red_Thonar" title="Red Thonar"><img alt="Rthonar" src="/images/Rthonar.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Rthonar.png" data-image-key="Rthonar.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/2/20/Rthonar.png/revision/latest/scale-to-width-down/70?cb=20220831023946" class=" ls-is-cached lazyloaded" _mstalt="96252" _msthash="337"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;">
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;">
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;">
+        </th></tr>
+        <tr>
+        <th rowspan="7" width="28%" style="background: #260B06; border: 1px solid black;"><font size="+2"><font color="white" _msttexthash="19175" _msthash="338">Un </font></font></th>
+        <th colspan="6" width="12%" style="background: #ff9000; border: 1px solid black;" _msttexthash="2619123" _msthash="339">Héroes que sobresalen en al menos uno de los contenidos generales </th></tr>
+        <tr>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Red_Arthur" title="Red Arthur"><img alt="Rarthur" src="/images/Rearthur.webp" decoding="async" loading="lazy" width="75" height="75" data-image-name="Rarthur.png" data-image-key="Rarthur.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/6/61/Rarthur.png/revision/latest/scale-to-width-down/75?cb=20200517201258" class=" ls-is-cached lazyloaded" _mstalt="98358" _msthash="340"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Red_Purgatory_Ban" title="Red Purgatory Ban"><img alt="Rpban" src="/images/Rpban.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Rpban.png" data-image-key="Rpban.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/c/c0/Rpban.png/revision/latest/scale-to-width-down/70?cb=20210622083222" class=" ls-is-cached lazyloaded" _mstalt="58916" _msthash="341"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Blue_Chandler" title="Blue Chandler"><img alt="Bchandler" src="/images/Bchandler.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Bchandler.png" data-image-key="Bchandler.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/f/f9/Bchandler.png/revision/latest/scale-to-width-down/70?cb=20210524192448" class=" ls-is-cached lazyloaded" _mstalt="131274" _msthash="342"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Blue_Demon_Cusack" title="Blue Demon Cusack"><img alt="Bdcusack" src="/images/Bdcusack.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Bdcusack.png" data-image-key="Bdcusack.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/c/c0/Bdcusack.png/revision/latest/scale-to-width-down/70?cb=20221115174231" class=" ls-is-cached lazyloaded" _mstalt="110981" _msthash="343"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Red_Derieri" title="Red Derieri"><img alt="Rderieri" src="/images/Rderieri.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Rderieri.png" data-image-key="Rderieri.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/b/b5/Rderieri.png/revision/latest/scale-to-width-down/70?cb=20200818054918" class=" ls-is-cached lazyloaded" _mstalt="113646" _msthash="344"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Green_Derieri" title="Green Derieri"><img alt="Gderieri" src="/images/Gderieri.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Gderieri.png" data-image-key="Gderieri.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/c/c8/Gderieri.png/revision/latest/scale-to-width-down/70?cb=20200818054857" class=" ls-is-cached lazyloaded" _mstalt="112645" _msthash="345"></a>
+        </th></tr>
+        <tr>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Red_Summer_Diane" title="Red Summer Diane"><img alt="Rsdiane" src="/images/Rsdiane.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Rsdiane.png" data-image-key="Rsdiane.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/a/aa/Rsdiane.png/revision/latest/scale-to-width-down/70?cb=20220720011400" class=" ls-is-cached lazyloaded" _mstalt="92872" _msthash="346"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Blue_Golden_Wings_Elaine" title="Blue Golden Wings Elaine"><img alt="Bgwelaine" src="/images/Bgwelaine.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Bgwelaine.png" data-image-key="Bgwelaine.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/6/6b/Bgwelaine.png/revision/latest/scale-to-width-down/70?cb=20220327054852" class=" ls-is-cached lazyloaded" _mstalt="131807" _msthash="347"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Blue_Ellatte" title="Blue Ellatte"><img alt="Bellatte" src="/images/Bellatte.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Bellatte.png" data-image-key="Bellatte.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/d/d9/Bellatte.png/revision/latest/scale-to-width-down/70?cb=20220209233050" class=" ls-is-cached lazyloaded" _mstalt="113139" _msthash="348"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Blue_Emilia" title="Blue Emilia"><img alt="Bemilia" src="/images/Bemilia.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Bemilia.png" data-image-key="Bemilia.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/9/91/Bemilia.png/revision/latest/scale-to-width-down/70?cb=20210511065455" class=" ls-is-cached lazyloaded" _mstalt="91130" _msthash="349"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Red_Eris" title="Red Eris"><img alt="Reris" src="/images/Reris.webp" decoding="async" loading="lazy" width="75" height="75" data-image-name="Reris.png" data-image-key="Reris.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/7/7e/Reris.png/revision/latest/scale-to-width-down/75?cb=20230502051405" class=" ls-is-cached lazyloaded" _mstalt="61399" _msthash="350"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Red_Escanor" title="Red Escanor"><img alt="Reescaneador" src="/images/Rescanor.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Rescanor.png" data-image-key="Rescanor.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/1/1e/Rescanor.png/revision/latest/scale-to-width-down/70?cb=20200710091238" class=" ls-is-cached lazyloaded" _mstalt="201916" _msthash="351"></a>
+        </th></tr>
+        <tr>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Green_Escanor" title="Green Escanor"><img alt="Gescanor" src="/images/Gescanor.webp" decoding="async" loading="lazy" width="75" height="75" data-image-name="Gescanor.png" data-image-key="Gescanor.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/7/78/Gescanor.png/revision/latest/scale-to-width-down/75?cb=20200513234212" class=" ls-is-cached lazyloaded" _mstalt="113828" _msthash="352"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Green_Filo" title="Green Filo"><img alt="Gfiloportrait" src="/images/Gfiloportrait.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Gfiloportrait.png" data-image-key="Gfiloportrait.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/c/c3/Gfiloportrait.png/revision/latest/scale-to-width-down/70?cb=20221102051404" class=" ls-is-cached lazyloaded" _mstalt="237237" _msthash="353"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Green_Ghislaine" title="Green Ghislaine"><img alt="Gghislaína" src="/images/Gghislaine.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Gghislaine.png" data-image-key="Gghislaine.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/5/5d/Gghislaine.png/revision/latest/scale-to-width-down/70?cb=20230502065320" class=" ls-is-cached lazyloaded" _mstalt="177437" _msthash="354"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Blue_New_Wings_King" title="Blue New Wings King"><img alt="Bnwking" src="/images/Bnwking.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Bnwking.png" data-image-key="Bnwking.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/7/78/Bnwking.png/revision/latest/scale-to-width-down/70?cb=20201229024844" class=" ls-is-cached lazyloaded" _mstalt="94861" _msthash="355"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Green_Valentine%27s_King" title="Green Valentine's King"><img alt="Gvking" src="/images/Gvking.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Gvking.png" data-image-key="Gvking.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/9/95/Gvking.png/revision/latest/scale-to-width-down/70?cb=20230214184220" class=" ls-is-cached lazyloaded" _mstalt="76700" _msthash="356"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Red_Kizuna" title="Red Kizuna"><img alt="Rkizuna" src="/images/Rkizuna.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Rkizuna.png" data-image-key="Rkizuna.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/0/0c/Rkizuna.png/revision/latest/scale-to-width-down/70?cb=20221102005533" class=" ls-is-cached lazyloaded" _mstalt="97019" _msthash="357"></a>
+        </th></tr>
+        <tr>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Blue_Christmas_Lillia" title="Blue Christmas Lillia"><img alt="Bclillia" src="/images/Bclillia.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Bclillia.png" data-image-key="Bclillia.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/6/63/Bclillia.png/revision/latest/scale-to-width-down/70?cb=20211222115214" class=" ls-is-cached lazyloaded" _mstalt="110279" _msthash="358"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Green_Liz" title="Green Liz"><img alt="Brillo" src="/images/Gliz.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Gliz.png" data-image-key="Gliz.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/0/08/Gliz.png/revision/latest/scale-to-width-down/70?cb=20210301130840" class=" ls-is-cached lazyloaded" _mstalt="76947" _msthash="359"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Green_Last_Philosopher_Merlin" title="Green Last Philosopher Merlin"><img alt="Glpmerlinicon" src="/images/Glpmerlinicon.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Glpmerlinicon.png" data-image-key="Glpmerlinicon.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/6/6c/Glpmerlinicon.png/revision/latest/scale-to-width-down/70?cb=20221005013419" class=" ls-is-cached lazyloaded" _mstalt="232869" _msthash="360"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Blue_Summer_Merlin" title="Blue Summer Merlin"><img alt="Bsmerlín" src="/images/Bsmerlin.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Bsmerlin.png" data-image-key="Bsmerlin.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/5/56/Bsmerlin.png/revision/latest/scale-to-width-down/70?cb=20210811142846" class=" ls-is-cached lazyloaded" _mstalt="137072" _msthash="361"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Blue_Awakened_Mono" title="Blue Awakened Mono"><img alt="Bamono" src="/images/Bamono.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Bamono.png" data-image-key="Bamono.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/3/37/Bamono.png/revision/latest/scale-to-width-down/70?cb=20230118211557" class=" ls-is-cached lazyloaded" _mstalt="76323" _msthash="362"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Green_Awakened_Mono" title="Green Awakened Mono"><img alt="GAmono" src="/images/Gamono .webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="GAmono.png" data-image-key="GAmono.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/1/18/GAmono.png/revision/latest/scale-to-width-down/70?cb=20220615202124" class=" ls-is-cached lazyloaded" _mstalt="73450" _msthash="363"></a>
+        </th></tr>
+        <tr>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Blue_Naofumi" title="Blue Naofumi"><img alt="Bnaofumi" src="/images/Bnaofumi.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Bnaofumi.png" data-image-key="Bnaofumi.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/f/fa/Bnaofumi.png/revision/latest/scale-to-width-down/70?cb=20221102015626" class=" ls-is-cached lazyloaded" _mstalt="113594" _msthash="364"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Blue_Raphtalia" title="Blue Raphtalia"><img alt="Braftalia" src="/images/Braphtalia.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Braphtalia.png" data-image-key="Braphtalia.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/a/a0/Braphtalia.png/revision/latest/scale-to-width-down/70?cb=20221102005517" class=" ls-is-cached lazyloaded" _mstalt="130468" _msthash="365"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Red_Rem" title="Red Rem"><img alt="Rrem" src="/images/Rrem.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Rrem.png" data-image-key="Rrem.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/f/f1/Rrem.png/revision/latest/scale-to-width-down/70?cb=20210511065455" class=" ls-is-cached lazyloaded" _mstalt="45305" _msthash="366"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Red_Reinhard" title="Red Reinhard"><img alt="Retrato de Red Reinhard" src="/images/Red_Reinhard_portrait.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Red Reinhard portrait.png" data-image-key="Red_Reinhard_portrait.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/8/85/Red_Reinhard_portrait.png/revision/latest/scale-to-width-down/70?cb=20220901114736" class=" ls-is-cached lazyloaded" _mstalt="436605" _msthash="367"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Green_Roxy_Migurdia" title="Green Roxy Migurdia"><img alt="Groximigurdia" src="/images/Groxymigurdia.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Groxymigurdia.png" data-image-key="Groxymigurdia.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/d/db/Groxymigurdia.png/revision/latest/scale-to-width-down/70?cb=20230502172533" class=" ls-is-cached lazyloaded" _mstalt="232570" _msthash="368"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Red_Rudeus" title="Red Rudeus"><img alt="Rrudeus" src="/images/Rrudeus.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Rrudeus.png" data-image-key="Rrudeus.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/2/24/Rrudeus.png/revision/latest/scale-to-width-down/70?cb=20230502200445" class=" ls-is-cached lazyloaded" _mstalt="98137" _msthash="369"></a>
+        </th></tr>
+        <tr>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Red_Shin" title="Red Shin"><img alt="Rshin" src="/images/Rterry.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Rterry.png" data-image-key="Rterry.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/6/6b/Rterry.png/revision/latest/scale-to-width-down/70?cb=20211109200231" class=" ls-is-cached lazyloaded" _mstalt="81341" _msthash="371"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Green_Zaratras" title="Green Zaratras"><img alt="Gzaratras" src="/images/Gzaratras.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Gzaratras.png" data-image-key="Gzaratras.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/a/ae/Gzaratras.png/revision/latest/scale-to-width-down/70?cb=20200929160304" class=" ls-is-cached lazyloaded" _mstalt="136630" _msthash="372"></a>
+        </th>
+        <th width="12%" style="background: #260B06; border: 1px solid black;"><a href="/wiki/Blue_Ominous_Nebula_Zeldris" title="Blue Ominous Nebula Zeldris"><img alt="Bonzeldris" src="/images/Bonzeldris.webp" decoding="async" loading="lazy" width="70" height="70" data-image-name="Bonzeldris.png" data-image-key="Bonzeldris.png" data-src="https://static.wikia.nocookie.net/7dsgc_mobile_game/images/a/a7/Bonzeldris.png/revision/latest/scale-to-width-down/70?cb=20220815030857" class=" ls-is-cached lazyloaded" _mstalt="159614" _msthash="373"></a>
+        </th>
+        </th></tr></tbody></table><div class="fl-scrolls" data-orientation="horizontal" style="width: 595px; left: 119.547px; height: 16px;"><div style="width: 705px;"></div></div></div></div>
+
+
+
+
+
+
     </main>
+
+    <!--Footer-->
     <footer>
       <div class="container-fluid">
         <div class="row p-5 text-white">
           <div class="col-md-12 col-lg-3">
             <div class="h3">
-              <a class="text-white text-decoration-none" href="index.html"
+              <a class="text-white text-decoration-none" href="/index.html"
                 ><img
                   src="../images/Anime_Confirmation_Logo (1).png"
                   alt="logo"
@@ -164,8 +368,8 @@
             <div class="mb-3">
               <a
                 class="text-secondary text-decoration-none"
-                href="../pages/manga.html"
-                >Manga</a
+                href="../pages/peliculas.html"
+                >Peliculas</a
               >
             </div>
             <div class="mb-3">
@@ -209,6 +413,13 @@
             <div class="mb-3">
               <a
                 class="text-secondary text-decoration-none"
+                href="https://7dsgc.netmarble.com/es#main"
+                >Grand cross</a
+              >
+            </div>
+            <div class="mb-3">
+              <a
+                class="text-secondary text-decoration-none"
                 href="https://www.instagram.com/thesevendeadlysins.official/?hl=es"
                 >Instagram</a
               >
@@ -225,13 +436,9 @@
             <img src="../images/Hawk demon gray.png" alt="" />
             <p class="h6 text-secondary"></p>
           </div>
-          <div class="container">
-            <div class="row pt-3">
-              <div class="col col-md-6 col-lg-3">
-                <p class="text-secondary" style="color: white">
-                  © Copyright - 2023 - Armory -
-                </p>
-              </div>
+          <div class="row pt-3">
+            <div class="col col-md-6 col-lg-3">
+              <p class="text-secondary">© Copyright - 2023 - Armory</p>
             </div>
           </div>
         </div>

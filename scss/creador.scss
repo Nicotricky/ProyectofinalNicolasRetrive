@@ -1,0 +1,41 @@
+main {
+  margin: 20px;
+}
+
+.reina {
+  margin: 5%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #72201a;
+  border: 2px solid black;
+  border-radius: 5%;
+  transition: 0.4s ease;
+  color: white;
+  justify-content: center;
+  box-shadow: 0 0 10px #fffefe;
+}
+
+.caballero {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.caballero p {
+  text-align: justify-all;
+  margin-top: 10px;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.caballero img {
+  margin: 20px;
+  float: left;
+}
+
+.text {
+  max-width: 100%;
+}

@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  background-image: url(../images/background\ pages.jpg);
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/*---Menu desplegable---*/
+
+header .navbar .container-fluid .nav-link {
+  color: #eeff04;
+  padding-left: 2%;
+  transition: all 400ms ease;
+}
+
+.nav-link {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+  color: var(--bs-nav-link-color);
+  text-decoration: none;
+  background: 0 0;
+  border: 0;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 0 4px 0;
+}
+
+nav {
+  background-color: #721d1d;
+  padding: 0 0 1rem 0;
+  top: 0;
+  z-index: 2;
+  grid-area: header;
+}
+
+.color_a {
+  color: #f70404;
+  font-family: "Six Caps", sans-serif;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.color_a:hover {
+  color: #e32f21;
+  text-decoration: underline;
+}
+
+ul {
+  align-items: right;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  color: #f8e10e;
+  animation: iluminar 1.4s linear infinite;
+}
+
+@keyframes iluminar {
+  0% {
+    color: #484848;
+    text-shadow: none;
+  }
+  90% {
+    color: #484848;
+    text-shadow: none;
+  }
+  100% {
+    color: #fffb15;
+    text-shadow: 0 0 7px #fff900, 0 0 50px #ff6c00;
+  }
+}
+ul li:nth-child(1) {
+  animation-delay: 0s;
+}
+
+ul li:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+ul li:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+ul li:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+ul li:nth-child(5) {
+  animation-delay: 0.4s;
+}
+
+ul li:nth-child(6) {
+  animation-delay: 0.5s;
+}
+
+ul li:nth-child(7) {
+  animation-delay: 0.6s;
+}
+
+ul li:nth-child(8) {
+  animation-delay: 0.7s;
+}
+
+.animated-text {
+  margin-top: 2%;
+  --bg-size: 400%;
+  --color-one: hsl(10 90% 55%);
+  --color-two: hsl(40 90% 55%);
+  background: linear-gradient(
+      90deg,
+      var(--color-one),
+      var(--color-two),
+      var(--color-one)
+    )
+    0 0 / var(--bg-size);
+  animation: move-bg 4s infinite linear;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+@keyframes move-bg {
+  to {
+    background-position: var(--bg-size) 0;
+  }
+}
+
+/*---Main---*/
+main {
+  grid-area: main;
+  align-items: center;
+  text-align: center;
+}
+
+/*---Footer---*/
+footer {
+  background-color: #721d1d;
+  display: flex;
+  margin: 5%;
+  text-align: center;
+}
+
+.text-secondary {
+  background-image: linear-gradient(rgb(231, 12, 12), yellow);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@import "juegos";
+@import "variables";
+@import "index";
+@import "pelicula";
+@import "personajes";
+@import "creador";
+@import "anime";

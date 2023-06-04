@@ -1,0 +1,105 @@
+.games {
+  margin: 5%;
+}
+
+.Heroes {
+  margin-bottom: 20px;
+  --bg-size: 400%;
+  --color-one: hsl(249, 100%, 50%);
+  --color-two: hsl(0, 100%, 49%);
+  background: linear-gradient(
+      90deg,
+      var(--color-one),
+      var(--color-two),
+      var(--color-one)
+    )
+    0 0 / var(--bg-size);
+  animation: move-bg 4s infinite linear;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+@keyframes move-bg {
+  to {
+    background-position: var(--bg-size) 0;
+  }
+}
+
+.div {
+  border: 0;
+  font: normal normal normal 100% inherit;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+.table-wide {
+  clear: both;
+  position: relative;
+}
+
+.table-wide:before {
+  -webkit-box-shadow: inset -15px 0 20px -15px var(--theme-page-text-mix-color);
+  box-shadow: inset -15px 0 20px -15px var(--theme-page-text-mix-color);
+  content: "";
+  height: 100%;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  width: 20px;
+  z-index: 2;
+}
+
+*,
+:after,
+:before {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+.table-wide-inner {
+  margin: 1em 0;
+  overflow-x: auto;
+}
+
+.table-wide-inner > table {
+  margin: 0;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: gray;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+th {
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: -internal-center;
+}
+
+a {
+  line-height: inherit;
+}
+
+table {
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
+}

@@ -1,0 +1,66 @@
+img {
+  max-width: 100%;
+}
+
+.meliodas {
+  width: 80%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1300px;
+}
+
+.Escanor {
+  text-align: center;
+}
+
+.banner__title {
+  padding: 37px 0 3px 0;
+}
+
+.banner__text {
+  padding: 24px 0 12px 0;
+  font-size: 20px;
+}
+
+.banner__link {
+  text-decoration: none;
+  color: #094709;
+  padding: 10px 0 7px 0;
+  font-weight: 900;
+}
+
+.banner__link:hover {
+  text-decoration: underline;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 3rem;
+}
+
+.wrapper {
+  width: 40%;
+  height: 40%;
+  position: relative;
+}
+
+.wrapper::before {
+  transition: all 0.5s ease-in;
+  background-color: rgb(233, 15, 15);
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.wrapper:hover::before {
+  opacity: 0.6;
+}
